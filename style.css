@@ -1,0 +1,112 @@
+
+.container-fluid{
+    position: relative;
+    height: 50px;
+}
+.navbar-brand{
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  
+  text-align: center;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: comic sans;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.navbar {
+    background-color: #52307c;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 28px;
+}
+
+.btn {
+    color: white;
+    border-color: white;
+    background-color: #52307c;
+}
+.btn:hover {
+    color: white;
+    border-color: white;
+    background-color: black;
+}
+
+.head-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: open sans;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+}
+.card{
+    margin: 10px;
+}
+.button_contain{
+    text-align: center;
+   
+}
+#add_btn{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 3px #52307c;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: #52307c;
+}
+#add_btn:hover{
+    background-color: #52307c;
+    color: white;
+}
+.whole_page{
+    position: fixed;
+    
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: #52307c;
+    top:0;
+    left:0;
+}
+#take_input{
+    display: flex;
+    margin: auto;
+    /* margin-top: 10%; */
+    align-items: center;
+    text-align: center;
+    box-shadow: white;
+}
+#input_btn {
+    margin-top: 20px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 3px #52307c;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: #52307c; 
+    box-shadow: white;
+}
+.input_title{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: open sans;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
